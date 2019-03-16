@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ClientApp" />
+        <module name="FontysMultiPurposeLibrary" />
+        <module name="RestAuthServer" />
+        <module name="RestAuthShared" />
+        <module name="SocketGameServer" />
+        <module name="SocketGameShared" />
+        <module name="TestReport" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ClientApp" options="-bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\resources.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\sunrsasign.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jsse.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jce.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\charsets.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jfr.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\classes;C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfxrt.jar&quot;" />
+      <module name="FontysMultiPurposeLibrary" options="-bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\resources.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\sunrsasign.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jsse.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jce.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\charsets.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jfr.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\classes;C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfxrt.jar&quot;" />
+      <module name="RestAuthServer" options="-bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\resources.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\sunrsasign.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jsse.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jce.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\charsets.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jfr.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\classes;C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfxrt.jar&quot;" />
+      <module name="RestAuthShared" options="-bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\resources.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\sunrsasign.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jsse.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jce.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\charsets.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jfr.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\classes;C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfxrt.jar&quot;" />
+      <module name="SocketGameServer" options="-bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\resources.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\sunrsasign.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jsse.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jce.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\charsets.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jfr.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\classes;C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfxrt.jar&quot;" />
+      <module name="SocketGameShared" options="-bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\resources.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\sunrsasign.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jsse.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jce.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\charsets.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jfr.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\classes;C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfxrt.jar&quot;" />
+      <module name="TestReport" options="-bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\resources.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\sunrsasign.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jsse.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jce.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\charsets.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\lib\jfr.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\jre64\classes;C:/Program Files/Java/jdk1.8.0_144/jre/lib/jfxrt.jar&quot;" />
+    </option>
+  </component>
+</project>

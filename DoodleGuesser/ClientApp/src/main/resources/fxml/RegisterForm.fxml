@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<AnchorPane prefWidth="370.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="clientapp.controllers.RegisterController">
+    <children>
+        <GridPane alignment="center" hgap="20" maxHeight="Infinity" maxWidth="Infinity" vgap="20" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <Text text="Register" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" GridPane.rowSpan="1">
+                <font>
+                    <Font name="Freesans" size="20.0" />
+                </font>
+            </Text>
+
+            <Label text="User Name:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField fx:id="tfUsername" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <PasswordField fx:id="tfPassword1" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <Label text="Repeat password:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <PasswordField fx:id="tfPassword2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+            <HBox alignment="BOTTOM_RIGHT" spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                <Button onAction="#btnBackClicked" text="Go back" />
+                <Button fx:id="btnRegister" onAction="#btnRegisterClicked" text="Register" />
+            </HBox>
+
+            <Label fx:id="lblMessage" textFill="RED" GridPane.columnIndex="0" GridPane.rowIndex="7" GridPane.columnSpan="2" GridPane.rowSpan="1" />
+
+
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+
+            <padding>
+                <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+            </padding>
+        </GridPane>
+    </children>
+</AnchorPane>
